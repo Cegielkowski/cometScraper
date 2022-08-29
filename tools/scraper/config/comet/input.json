@@ -1,0 +1,36 @@
+{
+  "urls": {
+    "startPage":           "https://app.comet.co/freelancer/signin?to=%2Ffreelancer%2Fdashboard",
+    "freelancerDashboard": "https://app.comet.co/freelancer/dashboard",
+    "freelanceProfile":    "https://app.comet.co/freelancer/profile"
+  },
+  "inputs": {
+    "email":    "input[name=email]",
+    "password": "input[name=password]"
+  },
+  "buttons": {
+    "resume":       "a.v-btn",
+    "acceptCookie": "#axeptio_btn_acceptAll",
+    "login":        "button[type=submit]"
+  },
+  "resumeSection": {
+    "image":            ".freelancer-resume-resume > div:nth-child(1) > div div:nth-child(1) div img",
+    "name":             ".freelancer-resume-resume > div:nth-child(1) > div div:nth-child(2) > div h4",
+    "role":             ".freelancer-resume-resume > div:nth-child(1) > div div:nth-child(2) > div div",
+    "timeOfExperience": ".freelancer-resume-resume > div:nth-child(1) > div div.freelancer-resume-figures div:nth-child(2) div",
+    "description":      ".freelancer-resume-resume > div:nth-child(2) div div:nth-child(2)",
+    "skills":           ".v-chip__content",
+    "experiences":      ".freelancer-resume-experience"
+  },
+  "experienceElements": {
+    "title":       ".freelancer-resume-resume > div:nth-child(4) div div div.named-section-content > div:nth-child(HIREME) div h4",
+    "skill":       ".freelancer-resume-resume > div:nth-child(4) div div div.named-section-content > div:nth-child(HIREME) div span",
+    "desc":        ".freelancer-resume-resume > div:nth-child(4) div div div.named-section-content > div:nth-child(HIREME) div div.expandable-text div div",
+    "period":      ".freelancer-resume-resume > div:nth-child(4) div div div.named-section-content > div:nth-child(HIREME) div div div.txt--type-normal",
+    "periodCount": ".freelancer-resume-resume > div:nth-child(4) div div div.named-section-content > div:nth-child(HIREME) div div div.txt--type-italic"
+  },
+  "skillsElements": {
+    "name": ".freelancer-resume-resume div:nth-child(3) div div div.named-section-content div div div > span:nth-child(HIREME) span:nth-child(1) span",
+    "time": ".freelancer-resume-resume div:nth-child(3) div div div.named-section-content div div div > span:nth-child(HIREME) span:nth-child(2)"
+  }
+}
